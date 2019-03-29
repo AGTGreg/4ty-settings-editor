@@ -4,4 +4,4 @@ JSON web editor with auto-completion and snippets, specifically written for the 
 Libraries used:
 Bootstrap
 Ace
-Toast
+Toastr

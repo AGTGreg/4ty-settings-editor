@@ -41,14 +41,15 @@ function initEditor() {
     // Copy to clipboard
     $('#btn-copy').on('click', function(e) {
         navigator.clipboard.writeText(editor.getValue());
-        new Toast({
-            message: 'Settings copied to the clipboard.',
-            type: 'info'
-        });
+        toastr.success('Settings copied to the clipboard.');
     });
 }
 
 
 $(document).ready(function() {
+    toastr.options = {
+        "closeButton": true,
+        "positionClass": "toast-bottom-right",
+    };
     initEditor();
 });
