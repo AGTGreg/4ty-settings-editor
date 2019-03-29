@@ -1,0 +1,66 @@
+<!--
+
+    Author:         Grigoris Chatzinicolaou
+    Title:          4ty Settings Editor
+    Description:    JSON web editor with auto-completion and snippets, specifically written for the settings of web
+                    pages made in 4ty's CMS.
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>4ty Settings editor</title>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Toast -->
+    <link rel="stylesheet" href="vendor/toast/toast.min.css">
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body id="home">
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row">
+                    <h1 class="display-4">4ty Settings editor</h1>
+                    <p class="lead">This is a JSON web editor with auto-completion and snippets, specifically written for the settings of web pages made in 4ty's CMS.</p>
+                    <hr>
+                    <a href="http://www.exclusive-docs.4ty.gr/more3.php?l=el" target="_blank" class="btn btn-light">Check the documentation</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="row">
+
+            <div id="editor-buttons-bar" class="col-12">
+                <button type="button" id="btn-copy" class="btn btn-dark">Copy to clipboard</button>
+            </div>
+            <div id="editor" class="col-12"></div>
+
+        </section>
+
+    </main>
+
+    <!-- Ace -->
+    <script src="js/settingSnippets.js"></script>
+    <script src="vendor/ace/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="vendor/ace/src-min-noconflict/ext-language_tools.js"></script>
+    <!-- Toast -->
+    <script src="vendor/toast/toast.min.js"></script>
+    <!-- Custom -->
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
