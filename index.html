@@ -16,13 +16,15 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap and its dependencies -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- Toastr -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <!-- Bootstrap select picker -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.7/dist/css/bootstrap-select.min.css">
     <!-- Custom -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -44,7 +46,14 @@
 
         <section class="row">
 
-            <div id="editor-buttons-bar" class="col-12">
+            <div id="editor-buttons-bar-left" class="col-8">
+                <button type="button" id="btn-new" class="btn btn-primary">New</button>
+                <button type="button" id="btn-save" class="btn btn-success">Save</button>
+                <select name="saved-settings" id="saved-settings" class="show-menu-arrow" data-live-search="true" title="Open one of your saved settings files...">
+                </select>
+                <button type="button" id="btn-delete" class="btn btn-danger disabled">Delete</button>
+            </div>
+            <div id="editor-buttons-bar-right" class="col-4">
                 <button type="button" id="btn-copy" class="btn btn-dark">Copy to clipboard</button>
             </div>
             <div id="editor" class="col-12"></div>
@@ -59,6 +68,8 @@
     <script src="vendor/ace/src-min-noconflict/ext-language_tools.js"></script>
     <!-- Toast -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <!-- Bootstrap select picker -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.7/dist/js/bootstrap-select.min.js"></script>
     <!-- Custom -->
     <script src="js/scripts.js"></script>
 
