@@ -101,11 +101,21 @@ var settingsSnippets = [
 
     {
         content:'\
-"headerBg": {\n\
+"headerBg-1": {\n\
     "value": "PATH_TO_IMAGE.jpg",\n\
     "pages": "/more.php?l=el"\n\
 }',
         name: "headerBg",
+        tabTrigger: "h"
+    },
+
+    {
+        content:'\
+"headerBgNoTitle-1": {\n\
+    "value": "PATH_TO_IMAGE.jpg",\n\
+    "pages": "/more.php?l=el"\n\
+}',
+        name: "headerBgNoTitle",
         tabTrigger: "h"
     },
 
