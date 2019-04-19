@@ -169,5 +169,131 @@ var settingsSnippets = [
 }',
         name: "logoSize",
         tabTrigger: "l"
+    },
+
+    {
+        content: '\
+"mainMenu": {\n\
+    "pages": "global",\n\
+    "value": {\n\
+        "menu-1": {\n\
+            "title": "Menu 1",\n\
+            "url": "/"\n\
+        },\n\
+        "menu-2": {\n\
+            "title": "Menu 2",\n\
+            "url": "/"\n\
+        }\n\
+    }\n\
+}',
+        name: "mainMenu",
+        tabTrigger: "m"
+    },
+
+    {
+        content: '\
+"menu-with-submenu": {\n\
+    "title": "Menu with submenu",\n\
+    "url": "/",\n\
+    "dropdown": "true",\n\
+    "subMenu" :{\n\
+        "submenu-1": {\n\
+            "title": "Sub Menu 1",\n\
+            "url": "/more2.php"\n\
+        },\n\
+        "submenu-2": {\n\
+            "title": "Sub Menu 2",\n\
+            "url": "/more2.php"\n\
+        }\n\
+    }\n\
+}',
+        name: "submenu",
+        tabTrigger: "subm"
+    },
+
+    {
+        content: '\
+"menu-with-settings": {\n\
+    "title": "Menu with settings",\n\
+    "url": "/",\n\
+    "settings": {\n\
+        "hide": "true"\n\
+    }\n\
+}',
+        name: "settingsMenu",
+        tabTrigger: "set"
+    },
+
+    {
+        content: '\
+"lang-menu": {\n\
+    "title": "Language specific menu",\n\
+    "url": "/",\n\
+    "lang": "el, en"\n\
+}',
+        name: "languageSpecificMenu",
+        tabTrigger: "lang"
+    },
+
+    {
+        content: '\
+"iconLeft": {\n\
+    "value": "PATH_TO_IMAGE.png",\n\
+    "pages": "/more.php"\n\
+}',
+        name: "iconLeft",
+        tabTrigger: "i"
+    },
+
+    {
+        content: '\
+"iconRight": {\n\
+    "value": "PATH_TO_IMAGE.png",\n\
+    "pages": "/more.php"\n\
+}',
+        name: "iconRight",
+        tabTrigger: "i"
+    },
+
+    {
+        content: '\
+"iconTop": {\n\
+    "value": "PATH_TO_IMAGE.png",\n\
+    "pages": "/more.php"\n\
+}',
+        name: "iconTop",
+        tabTrigger: "i"
+    },
+
+    {
+        content: '\
+"iconBottom": {\n\
+    "value": "PATH_TO_IMAGE.png",\n\
+    "pages": "/more.php"\n\
+}',
+        name: "iconBottom",
+        tabTrigger: "i"
+    },
+
+    {
+        content: '\
+"iconFull": {\n\
+    "value": "PATH_TO_IMAGE.png",\n\
+    "pages": "/more.php"\n\
+}',
+        name: "iconFull",
+        tabTrigger: "i"
+    },
+
+    {
+        content: '\
+removeMenu: {\n\
+    "pages": "/more.php",\n\
+    "value": "true"\n\
+}',
+        name: "removeMenu",
+        tabTrigger: "r"
     }
+
+    
 ];
