@@ -237,6 +237,17 @@ var settingsSnippets = [
 
     {
         content: '\
+"newTab-menu": {\n\
+    "title": "NewTab menu",\n\
+    "url": "/",\n\
+    "target": "_blank"\n\
+}',
+        name: "newTabMenu",
+        tabTrigger: "newT"
+    },
+
+    {
+        content: '\
 "iconLeft": {\n\
     "value": "PATH_TO_IMAGE.png",\n\
     "pages": "/more.php"\n\
@@ -294,6 +305,4 @@ removeMenu: {\n\
         name: "removeMenu",
         tabTrigger: "r"
     }
-
-    
 ];
