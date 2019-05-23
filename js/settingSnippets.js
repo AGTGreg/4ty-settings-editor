@@ -101,6 +101,16 @@ var settingsSnippets = [
 
     {
         content:'\
+"hideEmail": {\n\
+    "value": "true",\n\
+    "pages": "global"\n\
+}',
+        name: "hideEmail",
+        tabTrigger: "h"
+    },
+
+    {
+        content:'\
 "headerBg-1": {\n\
     "value": "PATH_TO_IMAGE.jpg",\n\
     "pages": "/more.php?l=el"\n\
@@ -304,5 +314,15 @@ removeMenu: {\n\
 }',
         name: "removeMenu",
         tabTrigger: "r"
-    }
+    },
+
+    {
+        content:'\
+"fbMessaging": {\n\
+    "value": "Facebook page URL",\n\
+    "pages": "global"\n\
+}',
+        name: "fbMessaging",
+        tabTrigger: "fb"
+    },
 ];

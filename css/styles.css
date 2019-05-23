@@ -27,8 +27,9 @@ header.jumbotron {
 }
 #editor {
     margin-top: 10px;
-    min-height: 500px;
+    min-height: 700px;
     box-shadow: 0px 5px 31px -8px rgba(0,0,0,0.53);
+    margin-bottom: 40px;
 }
 textarea#clipboard { display: none; }
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
