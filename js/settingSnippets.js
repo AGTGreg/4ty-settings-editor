@@ -325,4 +325,14 @@ removeMenu: {\n\
         name: "fbMessaging",
         tabTrigger: "fb"
     },
+
+    {
+        content:'\
+"defaultLanguage": {\n\
+    "value": "en",\n\
+    "pages": "global"\n\
+}',
+        name: "defaultLanguage",
+        tabTrigger: "lang"
+    },
 ];
