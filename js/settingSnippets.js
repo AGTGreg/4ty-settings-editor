@@ -335,4 +335,14 @@ removeMenu: {\n\
         name: "defaultLanguage",
         tabTrigger: "lang"
     },
+
+    {
+        content:'\
+"replaceLanguage": {\n\
+    "value": "en, fr",\n\
+    "pages": "global"\n\
+}',
+        name: "replaceLanguage",
+        tabTrigger: "lang"
+    },
 ];
