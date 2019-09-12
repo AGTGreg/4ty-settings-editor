@@ -345,4 +345,30 @@ removeMenu: {\n\
         name: "replaceLanguage",
         tabTrigger: "lang"
     },
+
+    {
+        content:'\
+"fixedBanner": {\n\
+    "pages": "global",\n\
+    "value": {\n\
+        "title": "Title",\n\
+        "text": "This is some sample text.",\n\
+        "goTo": "https://google.com",\n\
+        "backgroundColor": "#2d2d2d",\n\
+        "backgroundImage": "",\n\
+        "color": "#ffffff",\n\
+        "position": "bottom right",\n\
+        "innerImage": "",\n\
+        "fullImage": "",\n\
+        "link": {\n\
+            "url": "https://google.com",\n\
+            "text": "Go to Google",\n\
+            "newTab": "true",\n\
+            "classes": "btn button"\n\
+        }\n\
+    }\n\
+}',
+        name: "fixedBanner",
+        tabTrigger: "banner"
+    },
 ];
