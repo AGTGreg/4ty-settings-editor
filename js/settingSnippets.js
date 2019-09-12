@@ -351,6 +351,7 @@ removeMenu: {\n\
 "fixedBanner": {\n\
     "pages": "global",\n\
     "value": {\n\
+        "closeButton": "true",\n \
         "title": "Title",\n\
         "text": "This is some sample text.",\n\
         "goTo": "https://google.com",\n\
