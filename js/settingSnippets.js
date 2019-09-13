@@ -354,7 +354,10 @@ removeMenu: {\n\
         "closeButton": "true",\n\
         "title": "Title",\n\
         "text": "This is some sample text.",\n\
-        "goTo": "https://google.com",\n\
+        "goTo": {\n\
+            "url": "https://google.com",\n\
+            "newTab": "true"\n\
+        },\n\
         "backgroundColor": "#2d2d2d",\n\
         "backgroundImage": "",\n\
         "color": "#ffffff",\n\
