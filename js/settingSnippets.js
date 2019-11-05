@@ -395,5 +395,5 @@ removeMenu: {\n\
 }',
         name: "globalSiteTag",
         tabTrigger: "tag"
-    },
+    }
 ];
