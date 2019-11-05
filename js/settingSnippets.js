@@ -375,4 +375,25 @@ removeMenu: {\n\
         name: "fixedBanner",
         tabTrigger: "banner"
     },
+
+
+    {
+        content:'\
+"googleTagManager": {\n\
+    "value": "GTM-XXXX",\n\
+    "pages": "global"\n\
+}',
+        name: "tagManager",
+        tabTrigger: "tag"
+    },
+
+    {
+        content:'\
+"googleGlobalSiteTag": {\n\
+    "value": "GA_MEASUREMENT_ID",\n\
+    "pages": "global"\n\
+}',
+        name: "globalSiteTag",
+        tabTrigger: "tag"
+    },
 ];
