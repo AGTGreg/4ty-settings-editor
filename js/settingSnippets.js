@@ -376,14 +376,13 @@ removeMenu: {\n\
         tabTrigger: "banner"
     },
 
-
     {
         content:'\
 "googleTagManager": {\n\
     "value": "GTM-XXXX",\n\
     "pages": "global"\n\
 }',
-        name: "tagManager",
+        name: "googleTagManager",
         tabTrigger: "tag"
     },
 
@@ -393,7 +392,7 @@ removeMenu: {\n\
     "value": "GA_MEASUREMENT_ID",\n\
     "pages": "global"\n\
 }',
-        name: "globalSiteTag",
+        name: "googleGlobalSiteTag",
         tabTrigger: "tag"
     }
 ];
